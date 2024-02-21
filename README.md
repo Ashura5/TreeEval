@@ -2,7 +2,7 @@
 This is the code repository corresponding to the paper "TreeEval: Benchmark-Free Evaluation of Large Language Models through Tree Planning"
 
 here is an overview of our method
-![图片说明](.//images//Method_v2.png) 
+![图片说明](.//images//method.png) 
 
 TreeEval naturally avoids the problem of test data leakage by discarding the fixed test set.
 
