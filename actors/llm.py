@@ -36,7 +36,6 @@ class ChatbotBase(object):
         pass
 
 
-
 class OpenAIChatbot(ChatbotBase):
     def __init__(self, openai_model, openai_api_key) -> None:
         super().__init__()

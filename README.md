@@ -32,7 +32,7 @@ if you find this useful for your work, please cite:
       year={2024},
       eprint={2402.13125},
       archivePrefix={arXiv},
-	  journal={arXiv preprint arXiv:2402.13125},
+      journal={arXiv preprint arXiv:2402.13125},
       primaryClass={cs.CL}
 }
 </pre>

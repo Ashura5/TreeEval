@@ -29,7 +29,6 @@ def remove_outliers(arr):
         return 0.5
 
 
-
 def count_question_num(data) -> float:
     res = 0
     if len(data["question"]) != 0:
@@ -286,7 +285,9 @@ def compute_without_root_all(data):
 def compute_without_topic_all(data):
     l = {}
     for key in data:
-        l[key] = compute_without_topic(data[key])[0] / compute_without_topic(data[key])[1]
+        l[key] = (
+            compute_without_topic(data[key])[0] / compute_without_topic(data[key])[1]
+        )
         # print(key, l[key])
     return l
 
@@ -294,7 +295,10 @@ def compute_without_topic_all(data):
 def compute_without_sibling_all(data):
     l = {}
     for key in data:
-        l[key] = compute_without_sibling(data[key])[0] / compute_without_sibling(data[key])[1]
+        l[key] = (
+            compute_without_sibling(data[key])[0]
+            / compute_without_sibling(data[key])[1]
+        )
         # print(key, l[key])
     return l
 

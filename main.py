@@ -61,4 +61,3 @@ if __name__ == "__main__":
             json.dump(question_list, f)
         end = time.time()
         print(end - start)
-
