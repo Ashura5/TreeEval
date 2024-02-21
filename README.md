@@ -25,3 +25,14 @@ The model we use can be found in huggingface:
 
 # Citation #
 if you find this useful for your work, please cite:
+<pre>
+@article{li2024treeeval,
+      title={TreeEval: Benchmark-Free Evaluation of Large Language Models through Tree Planning}, 
+      author={Xiang Li and Yunshi Lan and Chao Yang},
+      year={2024},
+      eprint={2402.13125},
+      archivePrefix={arXiv},
+	  journal={arXiv preprint arXiv:2402.13125},
+      primaryClass={cs.CL}
+}
+</pre>
