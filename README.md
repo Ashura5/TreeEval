@@ -1,6 +1,8 @@
 # Introduction #
 This is the code repository corresponding to the paper "TreeEval: Benchmark-Free Evaluation of Large Language Models through Tree Planning"
 
+Our work has been accepted by AAAI2025, and everyone is welcome to follow up.
+
 here is an overview of our method
 ![图片说明](.//images//method.png) 
 
